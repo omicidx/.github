@@ -80,13 +80,13 @@
     <text x="95" y="350" text-anchor="middle" fill="#adbac7" font-size="10">Project Registry</text>
 
     <!-- PubMed -->
-    <rect x="30" y="374" width="130" height="54" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
-    <text x="95" y="398" text-anchor="middle" fill="#d2a8ff" font-size="15" font-weight="700">PubMed</text>
+    <rect x="30" y="374" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
+    <text x="95" y="398" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">PubMed</text>
     <text x="95" y="416" text-anchor="middle" fill="#adbac7" font-size="10">Full Abstracts</text>
 
     <!-- EBI BioSamples -->
-    <rect x="30" y="440" width="130" height="54" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
-    <text x="95" y="464" text-anchor="middle" fill="#d2a8ff" font-size="15" font-weight="700">EBI</text>
+    <rect x="30" y="440" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
+    <text x="95" y="464" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">EBI</text>
     <text x="95" y="482" text-anchor="middle" fill="#adbac7" font-size="10">BioSamples API</text>
   </g>
 
@@ -132,8 +132,8 @@
     <text x="800" y="274" text-anchor="middle" fill="#adbac7" font-size="10">read_parquet()</text>
 
     <!-- AI / MCP -->
-    <rect x="730" y="315" width="140" height="50" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
-    <text x="800" y="337" text-anchor="middle" fill="#d2a8ff" font-size="13" font-weight="600">AI / MCP</text>
+    <rect x="730" y="315" width="140" height="50" rx="8" fill="#21262d" stroke="#58a6ff" stroke-width="1.5"/>
+    <text x="800" y="337" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="600">AI / MCP</text>
     <text x="800" y="354" text-anchor="middle" fill="#adbac7" font-size="10">Natural language SQL</text>
   </g>
 
