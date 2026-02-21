@@ -3,7 +3,7 @@
 **Open, cloud-native indices of public genomics metadata — updated daily.**
 
 <p align="center">
-  <img src="omicidx-overview.png" alt="OmicIDX architecture: 6 data sources flow through a daily ETL pipeline to cloud Parquet files queryable from Python, R, DuckDB, or AI assistants" width="800"/>
+  <img src="omicidx-overview-light.png" alt="OmicIDX architecture: 6 data sources flow through a daily ETL pipeline to cloud Parquet files queryable from Python, R, DuckDB, or AI assistants" width="800"/>
 </p>
 
 OmicIDX transforms raw NCBI and EBI metadata dumps into clean, analysis-ready [Apache Parquet](https://parquet.apache.org/) files served from a public CDN. Query millions of records directly from Python, R, DuckDB, or any Parquet-capable tool — no database server, no API keys, no downloads required.
