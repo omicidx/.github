@@ -21,7 +21,7 @@
     </filter>
     <!-- Arrowheads -->
     <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#484f58"/>
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#636e7b"/>
     </marker>
     <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M 0 1 L 10 5 L 0 9 z" fill="#3fb950"/>
@@ -36,7 +36,7 @@
 
   <!-- All arrows (behind boxes) -->
   <!-- Sources to ETL -->
-  <g stroke="#484f58" stroke-width="1.5" fill="none" marker-end="url(#arrowGray)">
+  <g stroke="#636e7b" stroke-width="1.5" fill="none" marker-end="url(#arrowGray)">
     <line x1="160" y1="137" x2="247" y2="218"/>
     <line x1="160" y1="203" x2="247" y2="232"/>
     <line x1="160" y1="269" x2="247" y2="252"/>
@@ -55,50 +55,50 @@
 
   <!-- Title -->
   <text x="450" y="52" text-anchor="middle" fill="url(#accent)" font-size="28" font-weight="700" filter="url(#glow)">OmicIDX</text>
-  <text x="450" y="78" text-anchor="middle" fill="#8b949e" font-size="13">Cloud-native public genomics metadata — updated daily as Parquet</text>
+  <text x="450" y="78" text-anchor="middle" fill="#adbac7" font-size="13">Cloud-native public genomics metadata — updated daily as Parquet</text>
 
   <!-- Source nodes (left column) -->
   <g filter="url(#shadow)">
     <!-- SRA -->
     <rect x="30" y="110" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
     <text x="95" y="134" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">SRA</text>
-    <text x="95" y="152" text-anchor="middle" fill="#8b949e" font-size="10">Sequencing Reads</text>
+    <text x="95" y="152" text-anchor="middle" fill="#adbac7" font-size="10">Sequencing Reads</text>
 
     <!-- GEO -->
     <rect x="30" y="176" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
     <text x="95" y="200" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">GEO</text>
-    <text x="95" y="218" text-anchor="middle" fill="#8b949e" font-size="10">Expression Data</text>
+    <text x="95" y="218" text-anchor="middle" fill="#adbac7" font-size="10">Expression Data</text>
 
     <!-- BioSample -->
     <rect x="30" y="242" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
     <text x="95" y="266" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">BioSample</text>
-    <text x="95" y="284" text-anchor="middle" fill="#8b949e" font-size="10">Sample Metadata</text>
+    <text x="95" y="284" text-anchor="middle" fill="#adbac7" font-size="10">Sample Metadata</text>
 
     <!-- BioProject -->
     <rect x="30" y="308" width="130" height="54" rx="8" fill="#21262d" stroke="#f78166" stroke-width="1.5"/>
     <text x="95" y="332" text-anchor="middle" fill="#f78166" font-size="15" font-weight="700">BioProject</text>
-    <text x="95" y="350" text-anchor="middle" fill="#8b949e" font-size="10">Project Registry</text>
+    <text x="95" y="350" text-anchor="middle" fill="#adbac7" font-size="10">Project Registry</text>
 
     <!-- PubMed -->
     <rect x="30" y="374" width="130" height="54" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
     <text x="95" y="398" text-anchor="middle" fill="#d2a8ff" font-size="15" font-weight="700">PubMed</text>
-    <text x="95" y="416" text-anchor="middle" fill="#8b949e" font-size="10">Full Abstracts</text>
+    <text x="95" y="416" text-anchor="middle" fill="#adbac7" font-size="10">Full Abstracts</text>
 
     <!-- EBI BioSamples -->
     <rect x="30" y="440" width="130" height="54" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
     <text x="95" y="464" text-anchor="middle" fill="#d2a8ff" font-size="15" font-weight="700">EBI</text>
-    <text x="95" y="482" text-anchor="middle" fill="#8b949e" font-size="10">BioSamples API</text>
+    <text x="95" y="482" text-anchor="middle" fill="#adbac7" font-size="10">BioSamples API</text>
   </g>
 
   <!-- ETL Center block -->
   <g filter="url(#shadow)">
     <rect x="250" y="170" width="180" height="180" rx="12" fill="#21262d" stroke="url(#green)" stroke-width="2"/>
     <text x="340" y="210" text-anchor="middle" fill="url(#green)" font-size="18" font-weight="700">omicidx-etl</text>
-    <line x1="270" y1="222" x2="410" y2="222" stroke="#30363d" stroke-width="1"/>
-    <text x="340" y="248" text-anchor="middle" fill="#8b949e" font-size="11">Parse XML / API</text>
-    <text x="340" y="268" text-anchor="middle" fill="#8b949e" font-size="11">Transform (DuckDB)</text>
-    <text x="340" y="288" text-anchor="middle" fill="#8b949e" font-size="11">Write Parquet</text>
-    <text x="340" y="308" text-anchor="middle" fill="#8b949e" font-size="11">Upload to R2</text>
+    <line x1="270" y1="222" x2="410" y2="222" stroke="#444c56" stroke-width="1"/>
+    <text x="340" y="248" text-anchor="middle" fill="#adbac7" font-size="11">Parse XML / API</text>
+    <text x="340" y="268" text-anchor="middle" fill="#adbac7" font-size="11">Transform (DuckDB)</text>
+    <text x="340" y="288" text-anchor="middle" fill="#adbac7" font-size="11">Write Parquet</text>
+    <text x="340" y="308" text-anchor="middle" fill="#adbac7" font-size="11">Upload to R2</text>
 
     <!-- Daily badge -->
     <rect x="290" y="322" width="100" height="22" rx="11" fill="#238636"/>
@@ -109,9 +109,9 @@
   <g filter="url(#shadow)">
     <rect x="490" y="185" width="180" height="150" rx="12" fill="#21262d" stroke="url(#accent)" stroke-width="2"/>
     <text x="580" y="222" text-anchor="middle" fill="url(#accent)" font-size="16" font-weight="700">Cloud Parquet</text>
-    <line x1="510" y1="234" x2="650" y2="234" stroke="#30363d" stroke-width="1"/>
-    <text x="580" y="258" text-anchor="middle" fill="#c9d1d9" font-size="12">Cloudflare R2</text>
-    <text x="580" y="278" text-anchor="middle" fill="#c9d1d9" font-size="12">Public CDN</text>
+    <line x1="510" y1="234" x2="650" y2="234" stroke="#444c56" stroke-width="1"/>
+    <text x="580" y="258" text-anchor="middle" fill="#e6edf3" font-size="12">Cloudflare R2</text>
+    <text x="580" y="278" text-anchor="middle" fill="#e6edf3" font-size="12">Public CDN</text>
     <text x="580" y="298" text-anchor="middle" fill="#58a6ff" font-size="10">data-omicidx.cancerdatasci.org</text>
 
     <!-- Open badge -->
@@ -124,19 +124,19 @@
     <!-- Python / DuckDB -->
     <rect x="730" y="155" width="140" height="50" rx="8" fill="#21262d" stroke="#58a6ff" stroke-width="1.5"/>
     <text x="800" y="177" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="600">Python / DuckDB</text>
-    <text x="800" y="194" text-anchor="middle" fill="#8b949e" font-size="10">import duckdb</text>
+    <text x="800" y="194" text-anchor="middle" fill="#adbac7" font-size="10">import duckdb</text>
 
     <!-- R / arrow -->
     <rect x="730" y="235" width="140" height="50" rx="8" fill="#21262d" stroke="#58a6ff" stroke-width="1.5"/>
     <text x="800" y="257" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="600">R / Arrow</text>
-    <text x="800" y="274" text-anchor="middle" fill="#8b949e" font-size="10">read_parquet()</text>
+    <text x="800" y="274" text-anchor="middle" fill="#adbac7" font-size="10">read_parquet()</text>
 
     <!-- AI / MCP -->
     <rect x="730" y="315" width="140" height="50" rx="8" fill="#21262d" stroke="#d2a8ff" stroke-width="1.5"/>
     <text x="800" y="337" text-anchor="middle" fill="#d2a8ff" font-size="13" font-weight="600">AI / MCP</text>
-    <text x="800" y="354" text-anchor="middle" fill="#8b949e" font-size="10">Natural language SQL</text>
+    <text x="800" y="354" text-anchor="middle" fill="#adbac7" font-size="10">Natural language SQL</text>
   </g>
 
   <!-- Bottom tagline -->
-  <text x="450" y="505" text-anchor="middle" fill="#484f58" font-size="11">6 data sources  |  millions of records  |  zero infrastructure needed</text>
+  <text x="450" y="505" text-anchor="middle" fill="#636e7b" font-size="11">6 data sources  |  millions of records  |  zero infrastructure needed</text>
 </svg>
